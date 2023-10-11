@@ -1,0 +1,89 @@
+body {
+  	padding-top: 3.5rem;
+  	height: 100%;
+  	background-image: url("../img/pexels-eberhard-grossgasteiger2.jpg");
+}
+
+h1, h3 {
+  	color: white;
+  	text-align: center;
+}
+h1 {
+	font-size: 100px;
+}
+
+p {
+  	font-family: verdana;
+  	font-size: 15px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+	font-size:20px
+}
+
+
+/*banner*/
+/* Clear floats after the columns */
+.row:after {
+  	content: "";
+  	display: table;
+  	clear: both;
+}
+
+#home {
+	background-image: url("../img/pexels-eberhard-grossgasteiger2.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+
+    height: 1000px;
+    
+    object-fit: cover;
+    overflow: hidden;
+}
+#about {
+    height: 1000px;
+    background-color: pink;
+}
+
+#resume {
+    height: 1000px;
+    background-color: yellow;
+}
+#projects {
+  	height: 1000px;
+  	background-color: pink;
+}
+
+.centerpic {
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 25%;
+}
+
+.hometext{
+	font: verdana;
+	font-size: 150px;
+    letter-spacing: -1px;
+    margin: 0 auto 18px auto;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+
+    position:sticky;
+    height: X px;
+    width: Y px;
+    left:35%;
+    top:35%;
+    margin-top:- X/2 px;
+    margin-left:- Y/2 px;
+}
+
+.navbar-brand {
+	 margin-left: 10px;
+	 font: verdana;
+}
+
