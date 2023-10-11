@@ -1,7 +1,7 @@
 body {
   	padding-top: 3.5rem;
   	height: 100%;
-  	background-image: url("../img/pexels-eberhard-grossgasteiger2.jpg");
+  	/* background-image: url("../img/pexels-eberhard-grossgasteiger2.jpg"); */
 }
 
 h1, h3 {
@@ -35,7 +35,7 @@ a {
 }
 
 #home {
-	background-image: url("../img/pexels-eberhard-grossgasteiger2.jpg");
+	background-image: url("../img/forest-3622519_1920.jpg");
 	background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
@@ -71,7 +71,7 @@ a {
 	font-size: 150px;
     letter-spacing: -1px;
     margin: 0 auto 18px auto;
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+    text-shadow: 0px 1px 10px rgba(0, 0, 0, 1);
 
     position:sticky;
     height: X px;
