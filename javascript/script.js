@@ -22,7 +22,8 @@ $(document).ready(function(){
 
 	new TypeIt(".homeIntro", { 
 		strings: ["Vinna Gu", "Software Developer @ CGI"],
-		speed: 75
+		speed: 75,
+		waitUntilVisible: true,
 	}).go();
 });
 
