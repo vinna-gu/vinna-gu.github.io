@@ -8,7 +8,7 @@ h1, h3 {
   	text-align: center;
 }
 h1 {
-	font-size: 100px;
+	font-size: 90px;
 }
 h2 {
 	font-size: 100px;
@@ -21,7 +21,8 @@ h2 {
 }
 p {
   	font-family: verdana;
-  	font-size: 15px;
+  	font-size: 25px;
+	text-shadow: 0px 1px 35px rgba(0, 0, 0, 1);
 }
 html {
     scroll-behavior: smooth;
@@ -94,30 +95,25 @@ navbar-brand {
     margin-top:- X/2 px;
     margin-left:- Y/2 px;
 }
-.hometext .h1{
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid rgb(255, 255, 255); /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .1em; /* Adjust as needed */
-    animation: 
-      typing 3.5s steps(40, end),
-      blink-caret .5s step-end infinite;
-  }
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: white; }
-  }
 
 /* ABOUT */
 #about {
+    background-image: url("../img/background.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     height: 1000px;
+    
+    object-fit: cover;
+    overflow: hidden;
+	background-color: #ffe8b6;
+	transform: scale(-1, -1);
+}
+
+.aboutTitle {
+	transform: rotate(180deg);
+	height: 73%;
 }
 
 /* RESUME */
@@ -130,14 +126,18 @@ navbar-brand {
 	background-size: cover;
 }
 .resume-bg {
-	transform: rotate(180deg);
+	/* transform: rotate(180deg); */
 	height: 73%;
 }
-.resume-pdf {
+.rightBody {
 	float: right;
 	width: 60%;
-	height: 100%;
+	height: 115%;
 	padding-right: 100px;
+	padding-top: 100px;
+	color: white;
+	font: verdana;
+	
 }
 
 /* PROJECTS */
@@ -152,5 +152,6 @@ navbar-brand {
   	margin-right: auto;
   	width: 25%;
 }
+
 
 

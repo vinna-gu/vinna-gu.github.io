@@ -14,10 +14,8 @@
             crossorigin="anonymous">
         </script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="script.js"></script>
-		<!-- below is for adobe -->
-		<!-- <script type="text/javascript" src="index.js"></script> 
-		<script src="float-panel.js"></script> -->
+        <script src="javascript/script.js"></script>
+		<script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
     </head>
     <body>
         <nav class="navbar navbar-dark bg-custom-yellow navbar-expand-md fixed-top">
@@ -36,12 +34,12 @@
 		            <li class="nav-item text-center">
 		            	<a href="#resume" class="nav-link"><i class="bi bi-file-earmark-text"></i> Resume</a>
 		            </li>
-		            <li class="nav-item text-center">
+		            <!-- <li class="nav-item text-center">
 		            	<a href="#projects" class="nav-link"><i class="bi bi-laptop"></i> Projects</a>
-		            </li>
-		            <li class="nav-item text-center">
+		            </li> -->
+		            <!-- <li class="nav-item text-center">
 		            	<a href="#contact" class="nav-link"><i class="bi bi-envelope"></i> Contact</a>
-		            </li>
+		            </li> -->
 		        </ul>
 		    </div>
 		</nav>
@@ -51,15 +49,27 @@
 			<!-- Home -->
 		  <div class="column">
 		    <div class="main" id ="home">
-		    	<div class="hometext">
-		        	<h1>
-						<div class = "typed-out">Vinna Gu</div>
-					</h1>
-		        	<h3>Software Developer @ CGI</h3>
+				<div class="hometext">
+					<h1><span class="homeIntro"></span></h1>
 		    	</div>
 			</div>
 		  </div>
 		</div>
+
+		<div class="row">
+			<!-- About -->
+		  <div class="column">
+		    <div class="main" id ="about">
+				<div class="aboutTitle">
+					<h2>About</h2>
+					<div class="rightBody">
+						<p>Hiya! I'm Vinna, a passionate and results-driven software developer with a strong foundation in computer science. I graduated from the University of Pittsburgh in 2021 and have since accumulated over two years of hands-on experience at CGI. As a software developer, I specialize in both backend and frontend development, leveraging technologies such as Java, Spring Boot, Typescript, Angular, and Node.js.</p>
+					</div>
+				</div>
+			</div>
+		  </div>
+		</div>
+
 
 		<div class="row">
 			<!-- Resume -->
@@ -67,25 +77,11 @@
 		    <div class="resume-bg" id ="resume">
 				<div class="resume-bg">
 					<h2 style="line-height: 250%;">Resume</h2>
-					<div class="resume-pdf">
-						<iframe src="files/VinnaGu_Resume.pdf" width="100%" height="100%"> </iframe> 
+					<div class="rightBody">
+						<iframe src="files/VinnaGu_Resume.pdf" width="100%" height="85%"> </iframe> 
 					</div>
 				</div>
-			
-
-
-				<!-- <div class="resume-bg">
-					<div class="topic-title">
-						<h2>Resume</h2>
-					</div>
-					<div class="resume-pdf">
-						<iframe src="files/VinnaGu_Resume.pdf" width="100%" height="100%"> </iframe> 
-					</div>
-				</div> -->
 			</div>
-
-
-			
 		  </div>
 		</div>
 

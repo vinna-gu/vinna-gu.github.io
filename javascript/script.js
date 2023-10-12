@@ -12,13 +12,18 @@ $(document).ready(function(){
 			// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
 			$('html, body').animate({
 			  scrollTop: $(hash).offset().top
-			}, 800, function(){
+			}, 100, function(){
 		   
 			    // Add hash (#) to URL when done scrolling (default click behavior)
 			    window.location.hash = hash;
 		    });
 		} // End if
 	});
+
+	new TypeIt(".homeIntro", { 
+		strings: ["Vinna Gu", "Software Developer @ CGI"],
+		speed: 75
+	}).go();
 });
 
 var windw = this;
@@ -41,5 +46,4 @@ $.fn.followTo = function ( pos ) {
         }
     });
 };
-
 $('#f').followTo(250);
