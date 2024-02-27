@@ -21,7 +21,7 @@ $(document).ready(function(){
 	});
 
 	new TypeIt(".homeIntro", { 
-		strings: ["Vinna Gu", "Software Developer @ CGI"],
+		strings: ["Vinna Gu", "Software Developer"],
 		speed: 75,
 		waitUntilVisible: true,
 	}).go();
